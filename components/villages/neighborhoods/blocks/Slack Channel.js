@@ -8,7 +8,7 @@ class SlackChannel extends React.Component {
     const messages = this.props.messages;
     return (
       <Col lg={12}>
-        <img className="slack-channel" src="./images/img1.svg"/>
+        <img className="slack-channel" src="./images/_Laptop.svg"/>
       </Col>
     )
   }

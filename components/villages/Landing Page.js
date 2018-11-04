@@ -15,7 +15,7 @@ class LandingPage extends React.Component {
         <SectionA/>
         <SectionB/>
         <SectionC title={"Conheça o Better"} subtitle={"O Better é o aplicativo para se conectar em qualquer lugar do mundo!."}/>
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     )
   }
