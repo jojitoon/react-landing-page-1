@@ -18,6 +18,7 @@ class Header extends React.Component {
           </Row>
           <Row>
             <SlackChannel messages={this.props.messages}/>
+            {this.props.video}
           </Row>
         </Container>
       </section>
