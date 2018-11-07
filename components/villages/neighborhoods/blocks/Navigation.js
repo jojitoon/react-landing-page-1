@@ -12,7 +12,7 @@ class Navigation extends React.Component {
           <Branding/>
         </Col>
         <Col lg={6}>
-          <DemoLink/>
+          {/* <DemoLink/> */}
         </Col>
       </div>
     )

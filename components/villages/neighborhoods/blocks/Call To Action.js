@@ -11,7 +11,7 @@ class CallToAction extends React.Component {
       <Col lg={12}>
         <Title title={this.props.title}/>
         <Subtitle subtitle={this.props.subtitle}/>
-        <Button/>
+        {/* <Button/> */}
       </Col>
     )
   }

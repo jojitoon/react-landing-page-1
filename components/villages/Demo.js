@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Container, Row, Col } from 'react-grid-system';
 
 import Header from './neighborhoods/Header.js';
 import Footer from './neighborhoods/Footer.js';
@@ -13,20 +14,8 @@ class Demo extends React.Component {
   render() {
     return (
       <div className="demo">
-        <Container>
-          <Row>
-            <Navigation/>
-          </Row>
-          <Row>
-            <CallToAction title={this.props.title} subtitle={this.props.subtitle}/>
-          </Row>
-          <Row>
-            <SlackChannel messages={this.props.messages}/>
-            {this.props.video}
-          </Row>
-        </Container>
-       
-        <Footer/>
+          <Header title="Better" subtitle="Com o Better você está conectado com o mundo." video={<Video/>}/>         
+          <Footer/>
       </div>
     )
   }
